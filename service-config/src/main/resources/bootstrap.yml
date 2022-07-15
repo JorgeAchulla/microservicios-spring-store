@@ -12,6 +12,8 @@ spring:
           search-paths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          default-label: "master"
+        bootstrap: true
   security:
     user:
       name: root
